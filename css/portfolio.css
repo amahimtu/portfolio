@@ -16,7 +16,7 @@ figure {margin-left:0; margin-bottom:50px; max-width:100%}
 input {font-family: inherit;}
 .active{text-decoration:underline;}
 nav {width:100%;}
-nav a {font-family: 'Roboto Mono', monospace, system-ui; font-size: 1.125em; padding-right: 8%; text-decoration: none; color:#443e3c;}
+nav a {font-family: 'Roboto Mono', monospace, system-ui; font-size: 1.125em; padding-right: 5.75%; text-decoration: none; color:#443e3c;}
 nav a.active {text-decoration: underline;}
 .footer-list{display:inline; padding-right:5%; font-size:0.9em;}
 footer a {color:#443e3c;font-family: 'Roboto Mono', monospace, system-ui;}
