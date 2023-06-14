@@ -24,6 +24,7 @@ footer a {color:#443e3c;font-family: 'Roboto Mono', monospace, system-ui;}
 .contact-list-item{padding-bottom: 1.75rem; font-family: 'Roboto Mono', monospace, system-ui;}
 .skip-to-content-link{position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow:hidden;} /*positiong content off screen*/
 figcaption{font-size: 14px;}
+.conceal{display: none;} /*contact obfuscate*/
 
 main{font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica ,Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size:1em; color:#443e3c;line-height: 1.6;}
 
