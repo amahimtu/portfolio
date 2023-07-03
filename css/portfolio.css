@@ -5,7 +5,7 @@ h2 {font-family: 'Roboto Condensed', system-ui; font-weight: 300; font-size: 1.6
 h3 {font-weight: medium; font-size: 1.2em;}
 h4 {font-weight: medium; font-size: 1.1em;}
 h1,h2,h3,h4,h5 {text-transform: lowercase;}
-h3,h4, h5, footer a, .footer-list {font-family:'Roboto Mono', monospace, system-ui;}
+main, nav a, h3,h4, h5, footer a, .footer-list {font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica ,Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}
 h5 {font-weight:medium; font-size: 1.0em;}
 hr {margin-top: 2em; border: none; background-color: #ddd; height: 1px;}
 a {color:#0053B3;}
@@ -16,17 +16,17 @@ figure {margin-left:0; margin-bottom:50px; max-width:100%}
 input {font-family: inherit;}
 .active{text-decoration:underline;}
 nav {width:100%;}
-nav a {font-family: 'Roboto Mono', monospace, system-ui; font-size: 1.125em; padding-right: 5.75%; text-decoration: none; color:#443e3c;}
+nav a {color:#444; font-size: 1.125em; letter-spacing:1px; padding-right: 5.75%; text-decoration: none;}
 nav a.active {text-decoration: underline;}
 .footer-list{display:inline; padding-right:5%; font-size:0.9em;}
-footer a {color:#443e3c;font-family: 'Roboto Mono', monospace, system-ui;}
+footer a {color:#443e3c;}
 #contact-list{list-style-type: none; /* Remove bullets */ padding: 0; margin: 0;}
-.contact-list-item{padding-bottom: 1.75rem; font-family: 'Roboto Mono', monospace, system-ui;}
+.contact-list-item{padding-bottom: 1.75rem;}
 .skip-to-content-link{position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow:hidden;} /*positiong content off screen*/
 figcaption{font-size: 14px;}
 .conceal{display: none;} /*contact obfuscate*/
 
-main{font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica ,Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size:1em; color:#443e3c;line-height: 1.6;}
+main {font-size:1em; color:#443e3c;line-height: 1.6;}
 
 /*small screens */
 
@@ -43,9 +43,8 @@ body {margin: 0.75%;}
 nav a{
   display:block;
   text-decoration:none;
-  color:#443e3c;
   font-size:1.15em;
-  padding:2.3%;
+  padding:7.5%;
   padding-bottom:1.5rem;
   transition:.5s color;
   padding-left:12%;
@@ -57,8 +56,8 @@ nav{
   overflow:auto;
   width:100px;
   /*box-sizing: border-box;*/
-  background-color: #fffef9;
-  padding-top:2.7%;
+  background-color:#fffef9;
+  padding-top:2.6%;
   position:fixed;
 }
 
