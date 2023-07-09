@@ -1,7 +1,7 @@
 body {background-color:#fffef9; max-width: 800px;}
 code {font-size: 1.2em;}
-h1 {font-family: 'Roboto Condensed', system-ui; font-weight: 400; font-size: 2em;}
-h2 {font-family: 'Roboto Condensed', system-ui; font-weight: 300; font-size: 1.6em;}
+h1 {font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica ,Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; font-size: 2em;}
+h2 {font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica ,Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 300; font-size: 1.6em;}
 h3 {font-weight: medium; font-size: 1.2em;}
 h4 {font-weight: medium; font-size: 1.1em;}
 h1,h2,h3,h4,h5 {text-transform: lowercase;}
@@ -28,6 +28,36 @@ figcaption{font-size: 14px;}
 
 main {font-size:1em; color:#443e3c;line-height: 1.6;}
 
+/*contact page animation*/
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica ,Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/*contact page animation ends*/
+
 /*small screens */
 
 @media only screen and (max-width: 600px) {
@@ -36,6 +66,8 @@ body {margin: 0.75%;}
 .footer-list {display: block;}
 
 }
+
+/*small screens end*/
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
