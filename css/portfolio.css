@@ -62,8 +62,9 @@ main {font-size:1em; color:#443e3c;line-height: 1.6;}
 
 @media only screen and (max-width: 600px) {
 
-body {margin: 0.75%;}
+body {margin: 0;}
 .footer-list {display: block;}
+.wrapper,.marquee {display: none;} /*removing marquee from mobile devices/small screens*/
 
 }
 
