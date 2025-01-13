@@ -25,7 +25,6 @@ footer a {color:#443e3c;}
 .skip-to-content-link{position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow:hidden;} /*positiong content off screen*/
 figcaption{font-size: 14px;}
 .conceal{display: none;} /*contact obfuscate*/
-
 main {font-size:1em; color:#443e3c;line-height: 1.6;}
 
 /*contact page animation*/
@@ -40,7 +39,7 @@ main {font-size:1em; color:#443e3c;line-height: 1.6;}
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
-  animation: marquee 10s linear infinite;
+  -webkit-animation: marquee 10s linear infinite;
 }
 
 .marquee p {
@@ -49,17 +48,17 @@ main {font-size:1em; color:#443e3c;line-height: 1.6;}
 
 @keyframes marquee {
   0% {
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-50%, 0, 0);
+    -webkit-transform: translate3d(-50%, 0, 0);
   }
 }
 
 /*contact page animation ends*/
 
-/*small screens */
 
+/*small screens */
 @media only screen and (max-width: 600px) {
 
 body {margin: 0;}
@@ -67,7 +66,6 @@ body {margin: 0;}
 .wrapper,.marquee {display: none;} /*removing marquee from mobile devices/small screens*/
 
 }
-
 /*small screens end*/
 
 /* Large devices (laptops/desktops, 992px and up) */
