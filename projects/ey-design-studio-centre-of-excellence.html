@@ -236,13 +236,14 @@
                 const scale = 1.5 / maxDim;
                 model.scale.multiplyScalar(scale);
                 
+                // Move the model up
+                model.position.y += 0.3; // Increase this value to move the model higher
+
                 // Set initial rotation (30 degrees = π/6 radians)
                 model.rotation.y = Math.PI / 6;
                 
                 // Position camera
-                camera.position.x = 2;
-                camera.position.y = 1.5;
-                camera.position.z = 2;
+                camera.position.set(2, 1.5, 2);
                 camera.lookAt(0, 0, 0);
             },
             function (xhr) {
